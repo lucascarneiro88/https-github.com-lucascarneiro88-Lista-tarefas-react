@@ -1,0 +1,69 @@
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+  /* padding para dar espaçamento no conteudo dos todo */
+  padding: 30px;
+  /* color = cor principal da aplicação */
+  color: #333;
+  background-image: url('./img/bg.jpg');
+  /* posição da imagem ao centro */
+  background-position: center;
+  /* background-size: "cover"; faz a imagem que não é muito grande aparecer o maximo possivel na tela */
+  background-size: "cover";
+}
+
+.app {
+  /* largura maxima */
+  max-width: 600px;
+  /* margin para definir uma largura e margim bottomde 300px para depoisde ter formulario ter um scrrol melhor para centralizar ele */
+  margin: 0 auto 300px;
+  background-color: #efefef;
+  /* padding interno para os elementos */
+  padding: 20px 30px;
+  border-radius: 10px;
+
+}
+
+h1 {
+  /* para centralizar textos do h1 */
+  text-align: center;
+}
+
+h2 {
+  /*  */
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  /* box-sizing para que os imputs não ultrapasse o limite da area do seu elemento pai */
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #333974;
+  color: #fff;
+  padding: 5px 10px;
+  /* borde none remove a borda */
+  border: none;
+  border-radius: 3px;
+  /* cusror pointer para mudar o cursor mouse para mãozinha */
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+}
+
+.completed button {
+  background-color: green;
+}
+
+.completed-text {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+
